@@ -6,9 +6,9 @@ For information about setting AWS credentials see [here .](https://github.com/aw
 
 ## Build the image
 1. Clone the repos
-2. docker build it
+2. _docker build_ it
 
-or pull it from [docker hub directly](https://hub.docker.com/repository/docker/hesleo/docker-ecr) (see example below)
+or _pull_ it from [docker hub directly](https://hub.docker.com/repository/docker/hesleo/docker-ecr) (see example below)
 
 ##  Example
 The following example shows how to pull a docker image by setting the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY as an environment variables:
