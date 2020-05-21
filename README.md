@@ -4,6 +4,12 @@ Uses [Docker in Docker](https://hub.docker.com/_/docker) combined with [amazon-e
 
 For information about setting AWS credentials see [here .](https://github.com/awslabs/amazon-ecr-credential-helper#aws-credentials)
 
+## Build the image
+1. Clone the repos
+2. docker build it
+
+or pull it from [docker hub directly](https://hub.docker.com/repository/docker/hesleo/docker-ecr) (see example below)
+
 ##  Example
 The following example shows how to pull a docker image by setting the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY as an environment variables:
 ```shell
